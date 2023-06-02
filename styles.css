@@ -1,0 +1,66 @@
+*{
+    font-family: 'Hind', sans-serif;
+    margin: 0;
+    top: 0;
+}
+.main{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    /* background: no-repeat url("./pacto-visual-cWOzOnSoh6Q-unsplash.jpg"); */
+    background: no-repeat url("./minimalist-cat-wallpaper-1920x1080-v0-ck8qnnh2v0h81.png");
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 4rem;
+    text-align: center;
+    z-index: 10;
+    color: white;
+    margin: 5vh;
+    /* margin-top: 7vh; */
+    /* font-family: 'Permanent Marker', cursive;    */
+}
+#btn{
+    display: block;
+    width: 20vw;
+    font-size: 36px;
+    margin: auto;
+    /* background-color: rgb(255, 102, 102); */
+    background-color: rgba(138, 43, 226, 0.7);
+    border: 0;
+    color:white;
+    border-radius: 10px;
+}
+#btn:hover {
+    /* background-color: rgba(255, 102, 102, 0.7); */
+    background-color: rgba(138, 43, 226,0.9);
+    cursor: pointer;
+}
+.fact-container{
+    margin: 5vh auto;
+    height: auto;
+    width: 60vw;
+    color: white;
+    font-size: 36px;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.4);
+    /* background-color: rgba(255, 29, 88); */
+}
+
+@media screen and (max-width: 500px){
+    .main{
+        background-color: white;
+    }
+    #btn{
+        width: 70vw;
+        font-size: 28px;
+    }
+    .fact-container{
+        font-size: 28px;
+    }
+}
