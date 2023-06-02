@@ -7,7 +7,6 @@
     position: fixed;
     width: 100vw;
     height: 100vh;
-    /* background: no-repeat url("./pacto-visual-cWOzOnSoh6Q-unsplash.jpg"); */
     background: no-repeat url("./minimalist-cat-wallpaper-1920x1080-v0-ck8qnnh2v0h81.png");
     background-size: cover;
     background-position: center;
@@ -20,22 +19,18 @@ h1{
     z-index: 10;
     color: white;
     margin: 5vh;
-    /* margin-top: 7vh; */
-    /* font-family: 'Permanent Marker', cursive;    */
 }
 #btn{
     display: block;
     width: 20vw;
     font-size: 36px;
     margin: auto;
-    /* background-color: rgb(255, 102, 102); */
     background-color: rgba(138, 43, 226, 0.7);
     border: 0;
     color:white;
     border-radius: 10px;
 }
 #btn:hover {
-    /* background-color: rgba(255, 102, 102, 0.7); */
     background-color: rgba(138, 43, 226,0.9);
     cursor: pointer;
 }
@@ -49,13 +44,9 @@ h1{
     padding: 50px;
     border-radius: 10px;
     background-color: rgba(0,0,0,0.4);
-    /* background-color: rgba(255, 29, 88); */
 }
 
 @media screen and (max-width: 500px){
-    .main{
-        background-color: white;
-    }
     #btn{
         width: 70vw;
         font-size: 28px;
