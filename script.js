@@ -12,6 +12,6 @@ const loadCatFact = async () => {
     catch (e){
         console.log("Error: " , e);
     }
-}
-;
+};
+
 factBtn.addEventListener('click' , loadCatFact);

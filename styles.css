@@ -3,28 +3,30 @@
     margin: 0;
     top: 0;
 }
-.main{
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background: no-repeat url("./minimalist-cat-wallpaper-1920x1080-v0-ck8qnnh2v0h81.png");
+html{
+    min-height: 100vh;
+    height: auto;
+}
+body{
+    background:url("./minimalist-cat-wallpaper-1920x1080-v0-ck8qnnh2v0h81.png");
+    background-position: bottom;
     background-size: cover;
-    background-position: center;
-    z-index: -1;
-    box-sizing: border-box;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 h1{
     font-size: 4rem;
     text-align: center;
-    z-index: 10;
     color: white;
     margin: 5vh;
+    box-sizing: border-box;
 }
 #btn{
+    box-sizing: border-box;
     display: block;
     width: 20vw;
     font-size: 36px;
-    margin: auto;
+    margin: 5vh auto;
     background-color: rgba(138, 43, 226, 0.7);
     border: 0;
     color:white;
@@ -35,6 +37,7 @@ h1{
     cursor: pointer;
 }
 .fact-container{
+    box-sizing: border-box;
     margin: 5vh auto;
     height: auto;
     width: 60vw;
@@ -49,9 +52,12 @@ h1{
 @media screen and (max-width: 500px){
     #btn{
         width: 70vw;
-        font-size: 28px;
+        font-size: 24px;
     }
     .fact-container{
-        font-size: 28px;
+        margin: 2vh auto;
+        width: 80vw;
+        font-size: 24px;
+        padding: 20px;
     }
 }
